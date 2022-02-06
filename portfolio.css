@@ -1,0 +1,415 @@
+:root{
+    --mai-color: #5644df;
+    --lack-color: rgb(12, 11, 11);
+    --white: rgb(214, 214, 200);
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+#main{
+    width: 100%;
+}
+
+.getitouch{
+    border-bottom: 2px solid var(--mai-color);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--lack-color);
+    
+}
+
+.divcotaier nav{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(253, 253, 247);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+a{
+    text-decoration: none;
+}
+.divcotaier nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    /* border: 1px solid lightcoral; */
+    margin: 4px;
+    padding:10px 17px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #585b55;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a:hover {
+    background-color: var(--mai-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.mewa{
+    font-weight: 600;
+    font-size: 19px;
+    color: var(--lack-color);
+    margin-bottom: 20px;
+    
+}
+.ame{
+    border-bottom: 2px solid var(--mai-color);
+    font-weight: 800;
+    font-size: 29px;
+    color: var(--lack-color);
+    padding: 0px 7px;
+}
+
+
+/* maisectio */
+
+.cotet{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+.model{
+    height: 400px;
+    width: 500px;
+}
+.model img{
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+}
+.uttotext{
+    height: 175px;
+    width: 477px;
+}
+
+.uttotext h1{
+    font-size: 40px;
+    margin: 8px 5px 10px 0px;
+    line-height: 40px;
+}
+.uttotext .ame{
+    font-size: 60px;
+}
+.uttotext p{
+    margin: 25px 0px;
+}
+
+.uttotext .portfolioclick{
+
+padding: 12px 28px;
+color: white;
+border-radius: 7px;
+background-color: var(--mai-color);
+}
+/* mai sectio ed */
+
+.skillscotaier{
+   
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -18% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 50px auto;
+    
+}
+.firstdiv{
+    width: 40%;
+    height: 400px;
+    
+}
+
+.firstdiv .headig span{
+    color: var(--mai-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+}
+.headig h1{
+    color: var(--dark-gray-color);
+    font-size: 45px;
+    margin: 1px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.skillset{
+    /* width: 100%; */
+    margin: 10px 0px;
+    display: flex;
+    
+}
+.skillico{
+    margin-right: 15px;
+    /* width: 30%; */
+    
+}
+.skillico i{
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: var(--white);
+    margin-top: 23px;
+    padding: 10px 10px;
+    color: var(--mai-color);
+}
+.skilltext{
+    /* width: 70%; */
+    margin: 0px;
+}
+/* .skilltext p{
+margin: 0;
+} */
+.sediv{
+    width: 44%;
+    height: 400px;
+    
+}
+.sediv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* ed of secod cotaier */
+#myprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 500px;
+
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%, -0%);
+}
+
+#myprojects .skillheadi span {
+    color: var(--mai-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#myprojects .skillheadi h2{
+    color: var(--dark-gray-color);
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.projecthover{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -0%);
+}
+.project1{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+    background-image: url(img/company_1.jpg);
+    background-size: contain;
+}
+
+.project1 .hide {
+    visibility: hidden;
+    background-color: var(--white);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 100%;
+    border-radius: 9px;
+    z-index: 10;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.projectt{
+    background-color: var(--mai-color);
+    color: white;
+    border: 1px solid var(#5644df);
+    border-radius: 6px;
+    padding: 14px;
+}
+.project1:hover .hide {
+    visibility: visible;
+    z-index: 0;    
+}
+#happyclietsect{
+    display: flex;
+    width: 90%;
+    
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    top: 210%;
+    transform: translate(-50%, -0%);
+}
+.testimo span{
+    color: var(--mai-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.testimo h2{
+    color: var(--dark-gray-color);
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -0%);
+}
+.clietox{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: var(--mai-color);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+.clietox img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--white);
+    object-fit: contain;
+    border: 1px solid var(--white);
+}
+.star i{
+    color: gold;
+    font-size: 20px;
+}
+.clietox p{
+    color: var(--white);
+    font-size: 14px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.clietox a{
+    width: 190px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mai-color);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.clietox a:hover{
+    background-color: var(--mai-color);
+    color: #fff;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+    position: absolute;
+    left: 50%;
+    top: 270%;
+    transform: translate(-50%, -0%);
+}
+#contact img{
+    width: 60%;
+}
+.contact-input{
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.contact-input input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: var(--mai-color);
+}
+.contact-input a{
+    width: 200px;
+    height: 40px;
+    background-color: var(--mai-color);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 14px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    border-top: 1px solid rgb(221, 214, 214);
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 360%;
+    transform: translate(-50%, -0%);
+}
+footer p {
+    margin: 15px 0px;
+    color: var(--dark-gray-color);
+    font-size: 13px;
+}
